@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Schdule {
 
-    @Scheduled(cron = " 0 0 0 * 7 0-6" )
+    @Scheduled(cron = " 0 30 23 * * 5" )
 
 
     public void ScheduledTask(){
